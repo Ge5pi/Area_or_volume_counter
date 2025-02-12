@@ -60,3 +60,8 @@ Shape Selection Logic
             comboBox2D.Visible = true;
         }
     }
+
+## 🔧 Requirements
+- Windows OS
+- .NET Framework
+- Visual Studio (for development)
