@@ -30,3 +30,13 @@ A versatile geometry calculator built with C# Windows Forms that helps calculate
 - Choose the desired shape
 - Enter required measurements
 - Click "Calculate" to get the result
+
+## 🧮 Supported Calculations
+- Circle: Uses π × radius²
+- Rectangle: Simple length × width calculation
+- Triangle: Implements Heron's formula for area
+- Sphere: Implements (4/3)π × radius³
+- Parallelepiped: Uses length × width × height
+- Cone: Calculates (π × radius² × height)/3
+- Cylinder: Uses π × radius² × height
+- Pyramid: Calculates (base area × height)/3
