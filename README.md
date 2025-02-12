@@ -14,3 +14,10 @@
 - Cone Volume ((πr²h)/3)
 - Cylinder Volume (πr²h)
 - Pyramid Volume ((base area × height)/3)
+
+## 🛠️ Technical Implementation
+- Built using C# Windows Forms
+- Dynamic UI that adapts based on selected shape
+- Input validation for all calculations
+- Clean separation of UI logic between forms
+- Precise mathematical calculations using Math class
