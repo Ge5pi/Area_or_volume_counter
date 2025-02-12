@@ -2,6 +2,7 @@
 
 ![C#-Windows Forms-purple](https://github.com/user-attachments/assets/5f43b854-3140-4f78-b803-5f468d75b75a)
 ![NET-Framework-blue](https://github.com/user-attachments/assets/f4dc743e-808b-421d-8dc3-821328b20ac2)
+
 A versatile geometry calculator built with C# Windows Forms that helps calculate areas of 2D shapes and volumes of 3D shapes.
 
 ## 🎯 Features
@@ -40,3 +41,22 @@ A versatile geometry calculator built with C# Windows Forms that helps calculate
 - Cone: Calculates (π × radius² × height)/3
 - Cylinder: Uses π × radius² × height
 - Pyramid: Calculates (base area × height)/3
+
+## 💻 Code Example
+Shape Selection Logic
+
+    private void Form1_Load(object sender, EventArgs e)
+    {
+        radioButton2D.Checked = true;
+        comboBox2D.Items.AddRange(new string[] { "Circle", "Rectangle", "Triangle"});
+        comboBox3D.Items.AddRange(new string[] { "Sphere", "Parallelepiped", "Cone", "Cylinder", "Pyramid"});
+    }
+    
+    private void radioButton2D_CheckedChanged(object sender, EventArgs e)
+    {
+        if(radioButton2D.Checked)
+        {
+            comboBox3D.Visible = false;
+            comboBox2D.Visible = true;
+        }
+    }
